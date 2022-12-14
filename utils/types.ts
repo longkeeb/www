@@ -1,19 +1,19 @@
 export interface Product {
-  //   id: string;
+  id: string;
   handle: string;
   title: string;
   description: string;
   //   descriptionHtml: string;
   productType: string;
   featuredImage: Image | null;
-  images?: List<Image>;
-  //   variants: List<ProductVariant>;
+  images?: Array<Image>;
+  variants: Array<ProductVariant>;
   price: number;
 }
 
-export interface List<T> {
-  nodes: T[];
-}
+// export interface List<T> {
+//   nodes: T[];
+// }
 
 export interface Money {
   amount: number;
@@ -29,7 +29,8 @@ export interface Image {
 
 export interface ProductVariant {
   id: string;
-  priceV2: Money;
+  // priceV2: Money;
+  price: number;
   title: string;
   availableForSale: boolean;
 }

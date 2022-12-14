@@ -1,0 +1,144 @@
+<svg width="2000" height="200" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <text x="50" y="50" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="2s" repeatCount="indefinite" />
+    </text>
+    <text x="0" y="50" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="3s" repeatCount="indefinite" begin="0.1s" />
+    </text>
+    <text x="200" y="50" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="1.5s" repeatCount="indefinite" begin="0.2s" />
+    </text>
+    <!-- Add more rectangles here -->
+    <text x="100" y="0" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="2.5s" repeatCount="indefinite" begin="0s" />
+    </text>
+
+    <text x="300" y="0" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="2.8s" repeatCount="indefinite" begin="0.2s" />
+    </text>
+
+    <text x="150" y="0" fill="#03b100b6" style="writing-mode: tb; text-orientation: upright">101
+      <animate attributeName="y" values="0;200" dur="3.5s" repeatCount="indefinite" begin="0.1s" />
+    </text>
+
+    <text x="250" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="3.8s" repeatCount="indefinite" begin="6.2s" />
+    </text>
+
+    <text x="350" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="1.5s" repeatCount="indefinite" begin="3.1s" />
+    </text>
+
+    <text x="400" y="0" fill="#03b100b6" style="writing-mode: tb; text-orientation: upright">010001
+      <animate attributeName="y" values="0;200" dur="4.8s" repeatCount="indefinite" begin="0.2s" />
+    </text>
+
+    <text x="450" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="5.5s" repeatCount="indefinite" begin="0.1s" />
+
+    </text>
+
+    <text x="500" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="5.8s" repeatCount="indefinite" begin="0.2s" />
+    </text>
+
+    <text x="550" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="6.5s" repeatCount="indefinite" begin="0.1s" />
+    </text>
+
+    <text x="600" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="4.8s" repeatCount="indefinite" begin="6.2s" />
+    </text>
+    <text x="650" y="0" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="3.5s" repeatCount="indefinite" begin="3.1s" />
+    </text>
+
+    <text x="700" y="0" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="1.8s" repeatCount="indefinite" begin="0.2s" />
+
+    </text>
+
+    <text x="750" y="0" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="3.5s" repeatCount="indefinite" begin="0.1s" />
+
+    </text>
+
+    <text x="800" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="2.8s" repeatCount="indefinite" begin="1.2s" />
+    </text>
+
+
+    <text x="850" y="0" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="5.5s" repeatCount="indefinite" begin="5.1s" />
+
+    </text>
+
+    <text x="900" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="3.8s" repeatCount="indefinite" begin="0.2s" />
+    </text>
+
+    <text x="950" y="70" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="2.5s" repeatCount="indefinite" begin="0.1s" />
+
+    </text>
+
+    <text x="1000" y="50" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="1.8s" repeatCount="indefinite" begin="0.2s" />
+    </text>
+
+    <text x="1050" y="0" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="1.5s" repeatCount="indefinite" begin="0.1s" />
+
+    </text>
+
+    <text x="1150" y="-30" fill="#03b100b6" style="writing-mode: tb; text-orientation: upright">11001
+      <animate attributeName="y" values="0;200" dur="2.8s" repeatCount="indefinite" begin="1.9s" />
+    </text>
+
+    <text x="450" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="5.5s" repeatCount="indefinite" begin="0.1s" />
+
+    </text>
+
+    <text x="500" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="5.8s" repeatCount="indefinite" begin="0.2s" />
+    </text>
+
+    <text x="550" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="6.5s" repeatCount="indefinite" begin="0.1s" />
+    </text>
+
+    <text x="600" y="0" fill="#03b100b6">1
+      <animate attributeName="y" values="0;200" dur="4.8s" repeatCount="indefinite" begin="6.2s" />
+    </text>
+    <text x="650" y="0" fill="#03b100b6">0
+      <animate attributeName="y" values="0;200" dur="3.5s" repeatCount="indefinite" begin="3.1s" />
+    </text>
+
+    <text x="150" y="-70" fill="#03b100b6" style="writing-mode: tb; text-orientation: upright">011101
+      <animate attributeName="y" values="0;200" dur="4.2s" repeatCount="indefinite" begin="0.2s" />
+    </text>
+
+    <text x="1550" y="-50" fill="#03b100b6" style="writing-mode: tb; text-orientation: upright">010101
+      <animate attributeName="y" values="0;200" dur="3.5s" repeatCount="indefinite" begin="0.1s" />
+
+    </text>
+
+    <text x="3780" y="-30" fill="#03b100b6" style="writing-mode: tb; text-orientation: upright">001101
+      <animate attributeName="y" values="0;200" dur="2.8s" repeatCount="indefinite" begin="1.2s" />
+    </text>
+
+    <text x="1300" y="-10" fill="#03b100b6" style="writing-mode: tb; text-orientation: upright">100001
+      <animate attributeName="y" values="0;200" dur="1.5s" repeatCount="indefinite" begin="0.1s" />
+
+    </text>
+
+    <text x="2350" y="10" fill="#03b100b6" style="writing-mode: tb; text-orientation: upright">01011
+      <animate attributeName="y" values="0;200" dur="2.8s" repeatCount="indefinite" begin="1.9s" />
+    </text>
+
+
+
+  </g>
+</svg>

@@ -10,9 +10,12 @@ import * as $3 from "./routes/api/joke.ts";
 import * as $4 from "./routes/api/uuid.ts";
 import * as $5 from "./routes/github/[username].tsx";
 import * as $6 from "./routes/index.tsx";
-import * as $7 from "./routes/search.tsx";
+import * as $7 from "./routes/products/[product].tsx";
+import * as $8 from "./routes/products/cantor-reversible-pcb.tsx";
+import * as $9 from "./routes/search.tsx";
 import * as $$0 from "./islands/Countdown.tsx";
 import * as $$1 from "./islands/Counter.tsx";
+import * as $$2 from "./islands/ProductDetails.tsx";
 
 const manifest = {
   routes: {
@@ -23,11 +26,14 @@ const manifest = {
     "./routes/api/uuid.ts": $4,
     "./routes/github/[username].tsx": $5,
     "./routes/index.tsx": $6,
-    "./routes/search.tsx": $7,
+    "./routes/products/[product].tsx": $7,
+    "./routes/products/cantor-reversible-pcb.tsx": $8,
+    "./routes/search.tsx": $9,
   },
   islands: {
     "./islands/Countdown.tsx": $$0,
     "./islands/Counter.tsx": $$1,
+    "./islands/ProductDetails.tsx": $$2,
   },
   baseUrl: import.meta.url,
   config,

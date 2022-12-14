@@ -1,5 +1,5 @@
 body {
-  background: #222;
+  background: #191815;
 }
 
 h1 {
@@ -8,5 +8,10 @@ h1 {
 }
 
 * {
-  color: #2f1a;
+  color: #0dbc00aa;
+}
+
+.rainfall {
+  background-color: transparent;
+  background-image: url("/raindrops-animate.svg");
 }
