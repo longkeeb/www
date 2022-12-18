@@ -12,18 +12,18 @@ export function Header() {
       <nav class="w-11/12 h-24 max-w-5xl mx-auto flex items-center justify-between relative">
         <a href="/">
           <img
-            src="/longkeeblogo.svg"
+            src="/longkeebcurved.svg"
             class="w-14 h-14"
             alt="the fresh logo: a sliced lemon dripping with juice"
           />
         </a>
         <h1>
           <img
-            src="/text_logo.svg"
+            src="/longkeebtext.svg"
             alt="LongKeeb"
-            class="h-6"
-            width="130"
-            height="24"
+            class="h-10"
+            width="230"
+            height="54"
           />
         </h1>
         {/* <Cart /> */}

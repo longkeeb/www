@@ -9,8 +9,8 @@ const rotate = animation("6s ease infinite alternate ", {
   "from, 0%, to": {
     transform: "rotate3d(0)",
   },
-  "50%": {
-    transform: `rotate3d(3, 2, 1, 3.142rad)`,
+  [`${Math.random() > 0.5 ? "60%" : "30%"}`]: {
+    transform: `rotate3d(3, 2, ${Math.random() > 0.5 ? "6" : "2"}, 3.142rad)`,
   },
   "100%": {
     transform: `rotate3d(180, 2, 0, 3.142rad)`,
@@ -23,11 +23,11 @@ export function ProductCard(props: { product: Product }) {
     <a key={product.id} href={`/products/${product.handle}`} class="group">
       <div
         class={tw`${
-          // aspectRatio(1, 1)
-          ""} w-full  rounded-xl  transition-all duration-500 relative`}
+          aspectRatio(1, 1)
+        } w-full  rounded-xl  transition-all duration-500 relative`}
       >
         <div
-          class={tw`${rotate}w-full h-full flex items-center justify-center bg-[#ffffff22] hover:scale-150 hover:animate-none duration-500`}
+          class={tw`${rotate}w-full h-full flex items-center justify-center bg-[#ffffff22] hover:scale-150 hover:animate-none hover:delay-100 transform-gpu transition-transform hover:transition-all duration-500 ease-in-out `}
         >
           {product.featuredImage && (
             <img
@@ -47,7 +47,7 @@ export function ProductCard(props: { product: Product }) {
       <div class="flex items-center justify-between mt-3">
         <h3 class="text-lg font-medium relative">
           {product.title}
-          <span class="bg-red-800 h-[3px] w-0 group-hover:!w-full absolute bottom-[-2px] left-0 transition-all duration-400" />
+          <span class="bg-red-800 h-[3px] w-0 group-hover:!w-full absolute bottom-[-2px] left-0 transition-all duration-500" />
         </h3>
         <strong class="text-lg font-bold text-green-300">
           {/* {formatCurrency(product.priceRange.minVariantPrice)} */}

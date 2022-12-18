@@ -87,7 +87,9 @@ export default function ProductDetails({ product }: { product: Product }) {
             <p
               class={tw`text-base text-gray-600 ${descriptionStyles}`}
               //   dangerouslySetInnerHTML={{ __html: product.descriptionHtml }}
-            />
+            >
+              {product.description}
+            </p>
           </div>
         </section>
       </div>
