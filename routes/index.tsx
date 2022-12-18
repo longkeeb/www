@@ -7,6 +7,7 @@ import { Product } from "../utils/types.ts";
 import { ProductCard } from "../components/ProductCard.tsx";
 import { Header } from "../components/Header.tsx";
 import { Footer } from "../components/Footer.tsx";
+import data from "../data/products.json" assert { type: "json" };
 
 interface Data {
   products: Product[];
@@ -14,39 +15,8 @@ interface Data {
 
 export default function Home(ctx: PageProps<Data>) {
   const { url } = ctx;
+  const products = data.products;
 
-  const products: Product[] = [
-    {
-      id: "cantor-pcb",
-      title: "cantor reversible pcb",
-      price: 400,
-      description: "a reversible pcb for the cantor",
-      handle: "cantor-reversible-pcb",
-      productType: "pcb",
-      featuredImage: {
-        url:
-          "https://cdn.discordapp.com/attachments/953459286422462555/1052232206124335194/IMG_6092.png",
-        altText: "cantor pcb",
-        width: 400,
-        height: 400,
-      },
-      variants: [
-        {
-          title: "cantor pcb",
-          price: 400,
-          // sku: "cantor-pcb",
-          id: "cantor-pcb",
-          availableForSale: true,
-          // featuredImage: {
-          //   url:
-          //     "https://cdn.discordapp.com/attachments/953459286422462555/1052232206124335194/IMG_6092.png",
-          //   altText: "cantor pcb",
-          //   width: 400,
-          // },
-        },
-      ],
-    },
-  ];
   return (
     <div>
       <HeadElement

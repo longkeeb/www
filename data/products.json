@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": "cantor-pcb",
+      "title": "cantor reversible pcb",
+      "price": 400,
+      "description": "a reversible pcb for the cantor",
+      "handle": "cantor-reversible-pcb",
+      "productType": "pcb",
+      "featuredImage": {
+        "url": "https://cdn.discordapp.com/attachments/953459286422462555/1052232206124335194/IMG_6092.png",
+        "altText": "cantor pcb",
+        "width": 400,
+        "height": 400
+      },
+      "variants": [
+        {
+          "title": "cantor pcb",
+          "price": 400,
+          "id": "cantor-pcb",
+          "availableForSale": true
+        }
+      ]
+    },
+    {
+      "id": "cantor-prebuilt",
+      "title": "cantor split keyboard",
+      "price": 4500,
+      "description": "a whole new way to type. the cantor.",
+      "handle": "cantor-prebuilt",
+      "productType": "keyboard",
+      "featuredImage": {
+        "url": "https://cdn.discordapp.com/attachments/972842081120829450/1052227618130370670/IMG_6088.png",
+        "altText": "cantor keyboard",
+        "width": 400,
+        "height": 400
+      },
+      "variants": [
+        {
+          "title": "cantor prebuilt",
+          "price": 4200,
+          "id": "cantor-prebuilt",
+          "availableForSale": true
+        }
+      ]
+    }
+  ]
+}

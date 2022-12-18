@@ -54,7 +54,7 @@ export default function ProductDetails({ product }: { product: Product }) {
         <div class="flex flex-col gap-4">
           <div class="w-full flex items-center justify-between gap-4">
             <hgroup>
-              <h2 class="text-xl lg:!text-2xl font-semibold text-green-00">
+              <h2 class="text-xl lg:!text-2xl font-semibold text-green-500">
                 {product.title}
               </h2>
               <h3 class="text-gray-500 text-base leading-tight">

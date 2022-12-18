@@ -24,15 +24,8 @@ export default function ProductPage(ctx: PageProps) {
       {
         title: "cantor pcb",
         price: 400,
-        // sku: "cantor-pcb",
         id: "cantor-pcb",
         availableForSale: true,
-        // featuredImage: {
-        //   url:
-        //     "https://cdn.discordapp.com/attachments/953459286422462555/1052232206124335194/IMG_6092.png",
-        //   altText: "cantor pcb",
-        //   width: 400,
-        // },
       },
     ],
   };

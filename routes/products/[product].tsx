@@ -3,11 +3,15 @@ import { Footer } from "../../components/Footer.tsx";
 import { HeadElement } from "../../components/HeadElement.tsx";
 import { Header } from "../../components/Header.tsx";
 import ProductDetails from "../../islands/ProductDetails.tsx";
+import data from "../../data/products.json" assert { type: "json" };
 
 interface Query {
-  product: Product | null;
+  // product: Product | null;
+  // product: s;
 }
 
+{
+  /*
 export const handler: Handlers<Query> = {
   async GET(_req, ctx) {
     const data = await graphql<Query>(q, { product: ctx.params.product });
@@ -18,22 +22,28 @@ export const handler: Handlers<Query> = {
   },
 };
 
-export default function ProductPage(ctx: PageProps<Query>) {
-  const { data, url } = ctx;
+  */
+}
 
-  if (!data.product) {
+export default function ProductPage(ctx: PageProps<Query>) {
+  const { url, params } = ctx;
+
+  const product = data.products.find((product) => {
+    return product.handle === params.product;
+  });
+
+  if (!product) {
     return <div>Product not found</div>;
   }
 
   return (
     <>
       <HeadElement
-        description={data.product.description}
-        image={data.product.featuredImage?.url}
-        title={data.product.title}
+        description={product.description}
+        image={product.featuredImage?.url}
+        title={product.title}
         url={url}
       />
-
       <Header />
       <div class="w-11/12 mt-16 max-w-5xl mx-auto flex items-center justify-between relative">
         <a
@@ -55,7 +65,7 @@ export default function ProductPage(ctx: PageProps<Query>) {
           Back to shop
         </a>
       </div>
-      <ProductDetails product={data.product!} />
+      <ProductDetails product={product!} />
       <Footer />
     </>
   );
