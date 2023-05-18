@@ -27,7 +27,7 @@ export function ProductCard(props: { product: Product }) {
         } w-full  rounded-xl  transition-all duration-500 relative`}
       >
         <div
-          class={tw`${rotate}w-full h-full flex items-center justify-center bg-[#ffffff22] hover:scale-150 hover:animate-none hover:delay-100 transform-gpu transition-transform hover:transition-all duration-500 ease-in-out `}
+          class={tw`${rotate}w-full h-full flex items-center justify-center bg-[#ffffff22] transition-all hover:scale-150 hover:animate-none hover:delay-100 transform-gpu transition-transform hover:transition-all duration-500 ease-in-out `}
         >
           {product.featuredImage && (
             <img

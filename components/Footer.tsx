@@ -1,3 +1,4 @@
+import { DiscordLink } from "./DiscordLink.tsx";
 import GitHub from "./IconGithub.tsx";
 
 export function Footer() {
@@ -24,7 +25,8 @@ export function Footer() {
           Source
         </a>
       </span>
-      <iframe
+      {
+        /* <iframe
         src="https://canary.discord.com/widget?id=858718511013429311&theme=dark"
         width="350"
         height="300"
@@ -32,7 +34,9 @@ export function Footer() {
         frameBorder="0"
         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
       >
-      </iframe>
+      </iframe> */
+      }
+      <DiscordLink text="community" />
     </footer>
   );
 }

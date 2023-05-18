@@ -58,7 +58,7 @@ export default function ProductDetails({ product }: { product: Product }) {
                 {product.title}
               </h2>
               <h3 class="text-gray-500 text-base leading-tight">
-                {product.productType}
+                {product.productType + product.images}
               </h3>
             </hgroup>
             <div class="bg-[#E8E7E5] rounded-full px-6 py-2 text-lg text-gray-900 font-bold">
